@@ -32,7 +32,7 @@ function HighlightCard({ title, count, type }) {
             {title}
           </Typography>
           <Typography component="span" variant="body2" className={styles.count}>
-            {count}
+            {count || 0}
           </Typography>
         </CardContent>
       </Card>
